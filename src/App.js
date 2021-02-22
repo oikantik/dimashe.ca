@@ -73,9 +73,10 @@ function App() {
         <div className={classes.homeHeroTextArea}>
           <img src={logoImage} alt='logo' className={classes.logo} />
           <Typography variant='h3' className={classes.homeHeroText}>
-            Available in the{" "}
+            Available in the
+            <br />
             <span className={classes.homeHeroTextHighlighted}>
-              GTA & Scarborough Area
+              Greater Toronto Area
             </span>
           </Typography>
           <p>
