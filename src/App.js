@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     background: "#f9fafb",
     paddingLeft: "1.5rem",
+    paddingRight: "1.5rem",
     [theme.breakpoints.down("sm")]: {
       paddingBottom: "2rem",
     },
